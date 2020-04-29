@@ -7,7 +7,7 @@ def join_nested_strings(src)
   while row < src.length do
     element = 0
     while element < src[row].length do
-      puts src[row][element]
+      puts src[row][element].class
       if src[row][element].class == "String"
         joined_string << src[row][element]
         p joined_string
