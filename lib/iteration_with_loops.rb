@@ -7,7 +7,7 @@ def join_nested_strings(src)
   while row < src.size do
     element = 0
     while element < src[row].size do
-      joined_string
+      joined_string.join(" ")
     end
   end
 end
