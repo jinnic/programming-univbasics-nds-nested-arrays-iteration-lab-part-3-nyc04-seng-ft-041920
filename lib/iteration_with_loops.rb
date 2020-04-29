@@ -4,9 +4,9 @@ def join_nested_strings(src)
   row = 0
   joined_string = []
   
-  while row < src.size do
+  while row < src.length do
     element = 0
-    while element < src[row].size do
+    while element < src[row].length do
       if src[row][element].class == "String"
         joined_string << src[row][element]
       end
